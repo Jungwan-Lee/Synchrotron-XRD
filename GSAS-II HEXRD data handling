@@ -14,6 +14,6 @@ Time stamp can be confirmed at Filezilla; the data numbering and time stamp are 
 
 Lattice parameter export in GSAS-II
 add phase cif's
-check refine in general
+check Refine unit cell in general
 check histogram linked (all data linked to cif phase)
 Calculate - Refine, it takes time
