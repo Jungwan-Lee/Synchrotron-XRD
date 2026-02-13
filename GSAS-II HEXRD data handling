@@ -1,0 +1,4 @@
+GSAS-II
+Import the image (tif) data, the first one
+Parm - Import calibrated imctrl data
+  If calibration not done, refer to cali file
