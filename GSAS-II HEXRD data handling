@@ -5,3 +5,7 @@ Parm - Import calibrated imctrl data
 Import - integrate tif data - image (IMG) and powder (PWDR) files generated, time takes depending on number of files
 For stacked 1D profile (merged), Data - Sum or Average powder data
 For stacked 1D profile (stacked over time), Export - powder data - stacked csv file
+
+In Origin, 3D profile,
+  For profiling, 3D waterfall
+  For zooming in, Scale Zoom-panning tool, Z+mouse-wheeling can zoom in
