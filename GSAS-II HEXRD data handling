@@ -9,3 +9,4 @@ For stacked 1D profile (stacked over time), Export - powder data - stacked csv f
 In Origin, choose 3D profile or 3D color surface,
   For profiling, 3D waterfall
   For zooming in, Scale Zoom-panning tool, Z+mouse-wheeling can make you zoom in
+Time stamp can be confirmed at Filezilla; the data numbering and time stamp are synchronized
