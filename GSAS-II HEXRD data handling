@@ -11,3 +11,9 @@ In Origin, choose 3D profile or 3D color surface,
   For zooming in, Scale Zoom-panning tool, Z+mouse-wheeling can make you zoom in
   For restoring 3D graph, ctrl+R
 Time stamp can be confirmed at Filezilla; the data numbering and time stamp are synchronized
+
+Lattice parameter export in GSAS-II
+add phase cif's
+check refine in general
+check histogram linked (all data linked to cif phase)
+Calculate - Refine, it takes time
