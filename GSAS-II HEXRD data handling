@@ -3,4 +3,5 @@ Import the image (tif) data, the first one
 Parm - Import calibrated imctrl data
   If calibration not done, refer to cali file
 Import - integrate tif data - image (IMG) and powder (PWDR) files generated, time takes depending on number of files
-Data - Sum or Average powder data
+For stacked 1D profile (merged), Data - Sum or Average powder data
+For stacked 1D profile (stacked over time), Export - powder data - stacked csv file
