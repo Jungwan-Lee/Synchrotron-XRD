@@ -10,6 +10,12 @@ For stacked 1D profile (merged), Data - Sum or Average powder data
 For stacked 1D profile (stacked over time), Export - powder data - stacked csv file
 
 (2) With 
+Open new project, save the name
+Load phase cif files
+Load first image tif file
+
+**GSAS others
+Delete data: Data - Delete data entries - click the target
 
 In Origin, choose 3D profile or 3D color surface,
   For profiling, 3D waterfall
