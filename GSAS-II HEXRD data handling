@@ -1,12 +1,15 @@
 GSAS-II
+(1) With calibrated imctrl file
 Import the image (tif) data, the first one
-Parm - Import calibrated imctrl data
+Parm - Import calibrated imctrl data (Load Controls)
   If calibration not done, refer to cali file
 To obtain PWDR, go to integration tap for Image Controls, do integrate 
 Import - integrate tif data - image (IMG) and powder (PWDR) files generated, time takes depending on number of files
 Once done, on the 1D profile, press m, then merged graphs appear
 For stacked 1D profile (merged), Data - Sum or Average powder data
 For stacked 1D profile (stacked over time), Export - powder data - stacked csv file
+
+(2) With 
 
 In Origin, choose 3D profile or 3D color surface,
   For profiling, 3D waterfall
