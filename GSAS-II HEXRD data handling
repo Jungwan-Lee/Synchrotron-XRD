@@ -6,7 +6,8 @@ Image Controls, put Wavelength and Distance-SDD1100 (uncheck wavelength; it is f
   Other parameters don't need to touch
 Image Controls - Calibrate
 Point 5 points (left click 5 points on innermost ring; don't need to magnify; then right click - it shows rings)
-Masks - press F on 2D Powder Image, left click 4 corners of square; designate the region; the size doesn't matter
+Masks - press F on 2D Powder Image, left click 4 corners of square; designate the region; the size doesn't matter, done - right click
+Image Controls - Calibration - Recalibrate
 
 (1) With calibrated imctrl file
 Import the image (tif) data, the first one
