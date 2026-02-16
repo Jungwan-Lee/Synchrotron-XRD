@@ -13,6 +13,12 @@ For stacked 1D profile (stacked over time), Export - powder data - stacked csv f
 Open new project, save the name
 Load phase cif files
 Load first image tif file
+Image Controls - Parms - load Si cali imctrl file
+Image Controls - check "Show integration limits", "Do full integration", "Use for all new images"
+Image Controls - Integration - Integrate, then PWDR generated
+PWDR, check Limits
+  Peak List, manually click the peaks in 1D graph (e.g., ferrite peaks - 6 major peaks in 03-15 deg)
+
 
 **GSAS others
 Delete data: Data - Delete data entries - click the target
