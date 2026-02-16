@@ -1,4 +1,10 @@
 GSAS-II
+(0) Cali
+Max intensity 0-90000 (set by yourself)
+Image Controls, put Wavelength and Distance (uncheck wavelength; it is fixed), put Calibrant (Si if used), put inner/outer 2theta
+Image Controls - Calibrate
+Point 5 points (right click background anywhere, left click 5 points on innermost ring, then right click - it shows rings)
+
 (1) With calibrated imctrl file
 Import the image (tif) data, the first one
 Parm - Import calibrated imctrl data (Load Controls)
@@ -23,6 +29,7 @@ PWDR, check Limits
   iii) Instrument Parameters - check U, V, W, X, Y, Peak List - Peak Fitting - Peakfit
   iv) Refine both sigma2 and gamma, Peak Fitting - Peakfit
   Index Peak List - Operations - Load/Reload
+  Unit Cells List - check Cubic-I if ferrite peaks, 
 
 **GSAS others
 Delete data: Data - Delete data entries - click the target
