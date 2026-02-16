@@ -4,7 +4,7 @@ New project - Import - Si tif file, IMG file will be imported
 Max intensity 0-90000 (set by yourself)
 Image Controls, put Wavelength and Distance-SDD1100 (uncheck wavelength; it is fixed), put Calibrant (Si if used), put inner/outer 2theta (3.0-15.5)
 Image Controls - Calibrate
-Point 5 points (left click 5 points on innermost ring, then right click - it shows rings)
+Point 5 points (left click 5 points on innermost ring; don't need to magnify; then right click - it shows rings)
 
 (1) With calibrated imctrl file
 Import the image (tif) data, the first one
