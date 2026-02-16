@@ -1,7 +1,7 @@
 GSAS-II
 (0) Cali
 Max intensity 0-90000 (set by yourself)
-Image Controls, put Wavelength and Distance (uncheck wavelength; it is fixed), put Calibrant (Si if used), put inner/outer 2theta
+Image Controls, put Wavelength and Distance (uncheck wavelength; it is fixed), put Calibrant (Si if used), put inner/outer 2theta (3.0-15.5)
 Image Controls - Calibrate
 Point 5 points (right click background anywhere, left click 5 points on innermost ring, then right click - it shows rings)
 
