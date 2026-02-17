@@ -14,11 +14,19 @@ Image Controls - Integration - Integrate, then PWDR generated
 
 (00) 1D histogram fitting
 At PWDR dataset,
-Limits, Tmin to 4, Tmax to 13.5 (set by yourself); powder pattern has more data than I need
-Peak List, manually click the peaks in 1D graph (e.g., ferrite peaks - 6 major peaks in 03-15 deg)
-  i) Check intensity refines are checked, Peak Fitting - Peakfit
-  ii) Add positions, Peak Fitting - Peakfit (double-click refine, Y-vary all)
-  iii) Instrument Parameters - check U, V, W, X, Y, Peak List - Peak Fitting - Peakfit
+Limits, Tmin to 3.5, Tmax to 13.5 (set by yourself); powder pattern has more data than I need
+Background,
+  function: chebyschev-1, check at "Refine?"
+  Number of coeff.: 6
+  Fixed Points - Add - click background (no peak points) on the Powder Patterns, more than 6 points with left click
+  Fixed Points - Fit background, then red line generated, and 6 Background coeff. calculated automatically
+Peak List, manually click the peaks in 1D graph (if not accurate the center peak, then click double peaks)
+  i) Check intensity refines are checked (double-click refine, Y - vary all), Peak Fitting - Peakfit
+  ii) Uncheck intensity, Check position, Peak Fitting - Peakfit
+  iii) Uncheck position, check gamma (peak width), Instrument Parameters - check U, V, W, X, Y, Peak List - Peak Fitting - Peakfit
+    Rwp ~5-6% is good, once red (minus value) appears, then redo only for the red one, while U/V/W/X/Y checked
+    Sometimes just clicking the red one changes the value to positive; then leave it unchecked
+    Check the plot of Instrument Parameters; the graph mush be concave downward
   iv) Refine both sigma2 and gamma, Peak Fitting - Peakfit
   Index Peak List - Operations - Load/Reload
   Unit Cells List - check Cubic-I if ferrite peaks, 
