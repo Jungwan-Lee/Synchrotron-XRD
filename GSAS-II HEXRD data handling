@@ -34,7 +34,7 @@ Peak List, manually click the peaks in 1D graph (if not accurate the center peak
   Unit Cells List - check Cubic-I for ferrite, Cubic-F for aus/Si
     Cell Index/Refine - Index Cell, Indexing Result will appear when fitting is good
     Cell Index/Refine - Copy cell
-    Click "Ref?" at Zero offset, Cell Index/Refine - Refine cell
+    Click "Ref?" at Zero offset (Zero offset should be 0), Cell Index/Refine - Refine cell
     Modulate lattice parameter by setting cell step 0.5%, looking at peaks
     Δ2θ value can be confirmed in Position calibration tab in the graph; 
 
