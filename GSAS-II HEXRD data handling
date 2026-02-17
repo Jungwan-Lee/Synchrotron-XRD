@@ -9,6 +9,7 @@ Point 5 points on innermost ring (left click); don't need to magnify; then right
 Masks - press F on 2D Powder Image, left click 4 corners of a square; designate the region; the size doesn't matter, done - right click
 Image Controls - Calibration - Recalibrate, retry several times so that parameters do not change
 Parms - Save Controls - imctrl file
+Image Controls - check "Show integration limits", "Do full integration", "Use for all new images"
 Image Controls - Integration - Integrate, then PWDR generated
 
 (00) 1D histogram fitting
