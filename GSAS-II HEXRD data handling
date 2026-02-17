@@ -10,6 +10,9 @@ Masks - press F on 2D Powder Image, left click 4 corners of a square; designate 
 Image Controls - Calibration - Recalibrate, retry several times so that parameters do not change
 Parms - Save Controls - imctrl file
 Image Controls - Integration - Integrate, then PWDR generated
+
+(00) 1D histogram fitting
+At PWDR dataset,
 Peak List, manually click the peaks in 1D graph (e.g., ferrite peaks - 6 major peaks in 03-15 deg)
   i) Check intensity refines are checked, Peak Fitting - Peakfit
   ii) Add positions, Peak Fitting - Peakfit (double-click refine, Y-vary all)
