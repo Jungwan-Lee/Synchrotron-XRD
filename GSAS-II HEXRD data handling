@@ -1,14 +1,22 @@
 GSAS-II
 (0) Cali
 New project - Import - Si tif file, IMG file will be imported
-Max intensity 0-90000 (set by yourself)
-Image Controls, put Wavelength and Distance-SDD1100 (uncheck wavelength; it is fixed), put Calibrant (Si if used), put inner/outer 2theta (3.0-15.5)
+Max intensity 0-90000 (set by yourself so that rings are identified)
+Image Controls, put Wavelength (e.g., 0.207324) and Distance-SDD1100 (uncheck wavelength; it is fixed), put Calibrant (e.g., Si), put inner/outer 2theta (3.0-15.5)
   Other parameters don't need to touch
 Image Controls - Calibrate
-Point 5 points (left click 5 points on innermost ring; don't need to magnify; then right click - it shows rings)
-Masks - press F on 2D Powder Image, left click 4 corners of square; designate the region; the size doesn't matter, done - right click
+Point 5 points on innermost ring (left click); don't need to magnify; then right click - it shows rings in blue lines
+Masks - press F on 2D Powder Image, left click 4 corners of a square; designate the region; the size doesn't matter, done - right click
 Image Controls - Calibration - Recalibrate, retry several times so that parameters do not change
 Parms - Save Controls - imctrl file
+Image Controls - Integration - Integrate, then PWDR generated
+Peak List, manually click the peaks in 1D graph (e.g., ferrite peaks - 6 major peaks in 03-15 deg)
+  i) Check intensity refines are checked, Peak Fitting - Peakfit
+  ii) Add positions, Peak Fitting - Peakfit (double-click refine, Y-vary all)
+  iii) Instrument Parameters - check U, V, W, X, Y, Peak List - Peak Fitting - Peakfit
+  iv) Refine both sigma2 and gamma, Peak Fitting - Peakfit
+  Index Peak List - Operations - Load/Reload
+  Unit Cells List - check Cubic-I if ferrite peaks, 
 
 (1) With calibrated imctrl file
 Import the image (tif) data, the first one
