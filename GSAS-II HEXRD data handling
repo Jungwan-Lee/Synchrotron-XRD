@@ -35,8 +35,8 @@ Unit Cells List - check Cubic-I for ferrite, Cubic-F for aus/Si
   Cell Index/Refine - Index Cell, Indexing Result will appear when fitting is good
   Cell Index/Refine - Copy cell
   Click "Ref?" at Zero offset (Zero offset should be 0), Cell Index/Refine - Refine cell
-  Modulate lattice parameter by setting cell step 0.5%, looking at peaks
-  Δ2θ value can be confirmed in Position calibration tab in the graph; 
+  Modulate lattice parameter by setting cell step 0.01%, looking at peaks
+  Once done, click Peak List, then the Δ2θ value can be confirmed in Position calibration tab in the graph
 
 (1) With calibrated imctrl file
 Import the image (tif) data, the first one
