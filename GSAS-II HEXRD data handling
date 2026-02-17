@@ -25,11 +25,18 @@ Peak List, manually click the peaks in 1D graph (if not accurate the center peak
   ii) Uncheck intensity, Check position, Peak Fitting - Peakfit
   iii) Uncheck position, check gamma (peak width), Instrument Parameters - check U, V, W, X, Y, Peak List - Peak Fitting - Peakfit
     Rwp ~5-6% is good, once red (minus value) appears, then redo only for the red one, while U/V/W/X/Y checked
+      if it gets worse, then Peak Fitting - Undo and remove the peak; Peak Fitting - Delete peaks 
     Sometimes just clicking the red one changes the value to positive; then leave it unchecked
-    Check the plot of Instrument Parameters; the graph mush be concave downward
+    Check the graph fitting of Instrument Parameters; the graph mush be concave downward
   iv) Refine both sigma2 and gamma, Peak Fitting - Peakfit
+    Once red appears, then redo only for the red one
   Index Peak List - Operations - Load/Reload
-  Unit Cells List - check Cubic-I if ferrite peaks, 
+  Unit Cells List - check Cubic-I for ferrite, Cubic-F for aus/Si
+    Cell Index/Refine - Index Cell, Indexing Result will appear when fitting is good
+    Cell Index/Refine - Copy cell
+    Click "Ref?" at Zero offset, Cell Index/Refine - Refine cell
+    Modulate lattice parameter by setting cell step 0.5%, looking at peaks
+    Δ2θ value can be confirmed in Position calibration tab in the graph; 
 
 (1) With calibrated imctrl file
 Import the image (tif) data, the first one
