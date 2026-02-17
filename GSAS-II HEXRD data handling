@@ -30,13 +30,13 @@ Peak List, manually click the peaks in 1D graph (if not accurate the center peak
     Check the graph fitting of Instrument Parameters; the graph mush be concave downward
   iv) Uncheck U/V/W/X/Y, Refine both sigma2 and gamma, Peak Fitting - Peakfit
     Once red appears, then redo only for the red one
-  Index Peak List - Operations - Load/Reload
-  Unit Cells List - check Cubic-I for ferrite, Cubic-F for aus/Si
-    Cell Index/Refine - Index Cell, Indexing Result will appear when fitting is good
-    Cell Index/Refine - Copy cell
-    Click "Ref?" at Zero offset (Zero offset should be 0), Cell Index/Refine - Refine cell
-    Modulate lattice parameter by setting cell step 0.5%, looking at peaks
-    Δ2θ value can be confirmed in Position calibration tab in the graph; 
+Index Peak List - Operations - Load/Reload
+Unit Cells List - check Cubic-I for ferrite, Cubic-F for aus/Si
+  Cell Index/Refine - Index Cell, Indexing Result will appear when fitting is good
+  Cell Index/Refine - Copy cell
+  Click "Ref?" at Zero offset (Zero offset should be 0), Cell Index/Refine - Refine cell
+  Modulate lattice parameter by setting cell step 0.5%, looking at peaks
+  Δ2θ value can be confirmed in Position calibration tab in the graph; 
 
 (1) With calibrated imctrl file
 Import the image (tif) data, the first one
