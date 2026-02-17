@@ -28,7 +28,7 @@ Peak List, manually click the peaks in 1D graph (if not accurate the center peak
       if it gets worse, then Peak Fitting - Undo and remove the peak; Peak Fitting - Delete peaks 
     Sometimes just clicking the red one changes the value to positive; then leave it unchecked
     Check the graph fitting of Instrument Parameters; the graph mush be concave downward
-  iv) Refine both sigma2 and gamma, Peak Fitting - Peakfit
+  iv) Uncheck U/V/W/X/Y, Refine both sigma2 and gamma, Peak Fitting - Peakfit
     Once red appears, then redo only for the red one
   Index Peak List - Operations - Load/Reload
   Unit Cells List - check Cubic-I for ferrite, Cubic-F for aus/Si
