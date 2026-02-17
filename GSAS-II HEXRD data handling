@@ -13,6 +13,7 @@ Image Controls - Integration - Integrate, then PWDR generated
 
 (00) 1D histogram fitting
 At PWDR dataset,
+Limits, Tmin to 4, Tmax to 13.5 (set by yourself); powder pattern has more data than I need
 Peak List, manually click the peaks in 1D graph (e.g., ferrite peaks - 6 major peaks in 03-15 deg)
   i) Check intensity refines are checked, Peak Fitting - Peakfit
   ii) Add positions, Peak Fitting - Peakfit (double-click refine, Y-vary all)
