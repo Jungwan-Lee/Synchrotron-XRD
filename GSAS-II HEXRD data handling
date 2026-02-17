@@ -1,6 +1,6 @@
 GSAS-II
 (0) Cali
-New project - Import - Si tif file, IMG file will be imported
+New project - Import - Si tif file (used calibrant), IMG file will be imported
 Max intensity 0-90000 (set by yourself so that rings are identified)
 Image Controls, put Wavelength (e.g., 0.207324) and Distance-SDD1100 (uncheck wavelength; it is fixed), put Calibrant (e.g., Si), put inner/outer 2theta (3.0-15.5)
   Other parameters don't need to touch
