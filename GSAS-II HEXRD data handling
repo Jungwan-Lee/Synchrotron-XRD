@@ -1,5 +1,5 @@
 GSAS-II: capillary (Debye-Scherrer)
-(0) Cali
+(A) Cali
 New project - Import - Si tif file (used calibrant), IMG dataset will be imported
 Max intensity 0-90000 (set by yourself so that rings are identified)
 Image Controls, put Wavelength (e.g., 0.207324 A) and Distance-SDD1100 (uncheck wavelength; it is fixed), put Calibrant (e.g., Si), put inner/outer 2theta (3.0-15.5)
@@ -12,7 +12,7 @@ Parms - Save Controls - imctrl file
 Image Controls - check "Show integration limits", "Do full integration", "Use for all new images"
 Image Controls - Integration - Integrate, then PWDR generated
 
-(00) 1D histogram fitting
+(B) 1D histogram fitting
 At PWDR dataset,
 Limits, Tmin to 3.5, Tmax to 13.5 (set by yourself); powder pattern has more data than I need
 Background,
