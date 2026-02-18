@@ -17,9 +17,9 @@ At PWDR dataset,
 Limits, Tmin to 3.5, Tmax to 13.5 (set by yourself); powder pattern has more data than I need
 Background,
   function: chebyschev-1, check at "Refine?"
-  Number of coeff.: 6
+  Number of coeff.: 6 (or 3)
   Fixed Points - Add - click background (no peak points) on the Powder Patterns, more than 6 points with left click
-  Fixed Points - Fit background, then red line generated, and 6 Background coeff. calculated automatically
+  Fixed Points - Fit background, then red line generated, then 6 Background coeff. calculated automatically
 Peak List, manually click the peaks in 1D graph (if not accurate the center peak, then click double peaks)
   i) Check intensity refines are checked (double-click refine, Y - vary all), Peak Fitting - Peakfit
   ii) Uncheck intensity, Check position, Peak Fitting - Peakfit
