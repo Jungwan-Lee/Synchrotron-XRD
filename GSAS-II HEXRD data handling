@@ -1,4 +1,4 @@
-GSAS-II: capillary (Debye-Scherrer) - based on Windows format
+GSAS-II: capillary samples (Debye-Scherrer) high-energy X-ray diffraction - post-processing based on Windows format
 (A) Cali
 New project - Import - Si tif file (used calibrant), IMG dataset will be imported
 Max intensity 0-90000 (set by yourself so that rings are identified)
