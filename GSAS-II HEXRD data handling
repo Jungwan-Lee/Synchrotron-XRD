@@ -48,7 +48,7 @@ Once done, on the 1D profile, press m, then merged graphs appear
 For stacked 1D profile (merged), Data - Sum or Average powder data
 For stacked 1D profile (stacked over time), Export - powder data - stacked csv file
 
-(2) With 
+(2) With phase cif files
 Open new project, save the name
 Load phase cif files
 Load first image tif file
