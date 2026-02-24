@@ -78,3 +78,7 @@ add phase cif's
 check Refine unit cell in general
 check histogram linked (all data linked to cif phase)
 Calculate - Refine, it takes time
+
+(C) Sequential refinement
+You can do Rietveld refinement for hundreds of dataset by single-click
+Follow all the steps in: https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqRefine/SequentialTutorial.htm
