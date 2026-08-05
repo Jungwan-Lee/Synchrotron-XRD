@@ -103,6 +103,7 @@ Follow (C3) Sequential refinement
 (C3) Sequential refinement
 You can do Rietveld refinement for hundreds of dataset by single-click
 Follow all the steps in: https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqRefine/SequentialTutorial.htm
+Starting from Step IV - 2. Duplicate information across histograms
 
 *Errors*
 Problem #1. Calculate - refine) phase 0 invalid metric tensor error
