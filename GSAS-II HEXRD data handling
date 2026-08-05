@@ -79,6 +79,29 @@ check Refine unit cell in general
 check histogram linked (all data linked to cif phase)
 Calculate - Refine, it takes time
 
-(C) Sequential refinement
+(B2) How to generate fxye files
+Load IMG files as a zip file (zip file should not located at the same folder with IMG files)
+Image Controls - Load Parm as cali file - Copy control
+Image Controls - Integration - integrate all
+Export - PWDR fxye file
+
+
+(C1) Refinement (single PWDR (fxye) data)
+Load phases (cif), set constraints equation (CONST 0:0Scale + 1:0Scale + 2:0Scale = 1.0)
+Phase - General - check Refine unit cell, Phase - Data- check Use Histogram, phase fraction
+Load PWDR (Import - Powder data - from GSAS powder data file), no load for background (just check Refine, no coeff 6), 
+no load for instrument para (just check 5 para),
+just load Sample Parameters from cali file, then Calculate - Refine
+
+(C2) How to import fxye files
+Import - GSAS PWDR fxye files - select all the fxye files (do not make zip)
+Once a window appears, press Tab + Enter, then it works (phase reflected)
+Follow (C3) Sequential refinement
+
+(C3) Sequential refinement
 You can do Rietveld refinement for hundreds of dataset by single-click
 Follow all the steps in: https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqRefine/SequentialTutorial.htm
+
+*Errors*
+Problem #1. Calculate - refine) phase 0 invalid metric tensor error
+Solution #1. Set austenite fraction 0.9, ferrite 0.05, cementite 0.05 (all refine checked)
