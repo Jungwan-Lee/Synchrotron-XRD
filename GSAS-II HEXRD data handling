@@ -95,7 +95,7 @@ no load for instrument para (just check 5 para),
 just load Sample Parameters from cali file, then Calculate - Refine
 
 (C2) How to import fxye files
-No need to delete phase entry
+"No need" to delete phase entry
 Import - GSAS PWDR fxye files - select all the fxye files (do not make zip)
 Once a window appears, press Tab + Enter, then it works (phase reflected)
 if histogram not added, phase select - Edit Phase - Add powder histogram
