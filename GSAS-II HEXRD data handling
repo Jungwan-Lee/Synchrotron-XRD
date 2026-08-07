@@ -83,6 +83,7 @@ Calculate - Refine, it takes time
 Load IMG files as a zip file (zip file should not located at the same folder with IMG files)
 Here, you can select the stride. every 2 or every 10.. can reduce the # of dataset
 Image Controls - Load Parm as cali file - Copy control
+Click Show integration limits?, Do full integration?, Use for all new images?
 Image Controls - Integration - integrate all
 Export - Powder data as - GSAS fxye file
 
