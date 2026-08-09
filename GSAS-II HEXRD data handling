@@ -88,6 +88,9 @@ Image Controls - Load Parm as cali file - Copy control
 Image Controls - Integration - integrate all
 Export - Powder data as - GSAS fxye file
 
+(B3) 1D histogram fitting
+Before Rietveld refinement for single data, 1D histogram fitting should be done for fxye PWDR single data
+Load Sample param from cali, do Background - Peak List - fitting unit inst.param., unit cell list
 
 (C1) Refinement (single PWDR (fxye) data)
 Load phases (cif), set constraints equation (CONST 0:0Scale + 1:0Scale + 2:0Scale = 1.0)
