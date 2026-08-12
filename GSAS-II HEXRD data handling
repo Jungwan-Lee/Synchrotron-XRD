@@ -61,7 +61,7 @@ PWDR, check Limits
   i) Check intensity refines are checked, Peak Fitting - Peakfit
   ii) Add positions, Peak Fitting - Peakfit (double-click refine, Y-vary all)
   iii) Instrument Parameters - check U, V, W, X, Y, Peak List - Peak Fitting - Peakfit
-  iv) Refine both sigma2 and gamma, Peak Fitting - Peakfit
+  iv) Uncheck all, Refine both sigma2 and gamma, Peak Fitting - Peakfit
   Index Peak List - Operations - Load/Reload
   Unit Cells List - check Cubic-I if ferrite peaks, 
 
