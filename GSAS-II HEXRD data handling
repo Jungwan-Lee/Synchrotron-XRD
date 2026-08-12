@@ -93,12 +93,13 @@ Export - Powder data as - GSAS fxye file
 Before Rietveld refinement for single data, 1D histogram fitting should be done for fxye PWDR single data
 Load Sample param from cali, do Background - Peak List - fitting unit inst.param., unit cell list
 
-(C1) Refinement (single PWDR (fxye) data)
+(C1) Single refinement (single PWDR (fxye) data)
 Load phases (cif), set constraints equation (CONST 0:0Scale + 1:0Scale + 2:0Scale = 1.0)
 Phase - General - check Refine unit cell, Phase - Data- check Use Histogram, phase fraction
 Load PWDR (Import - Powder data - from GSAS powder data file), no load for background (just check Refine, no coeff 6), 
 no load for instrument para (just check 5 para),
 just load Sample Parameters from cali file, then Calculate - Refine
+Follow 4 steps for single refinement in https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqRefine/SequentialTutorial.htm
 
 (C2) How to import fxye files
 "No need" to delete phase entry
