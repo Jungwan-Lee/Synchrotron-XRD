@@ -116,4 +116,4 @@ Starting from Step IV - 2. Duplicate information across histograms
 
 *Errors*
 Problem #1. Calculate - refine) phase 0 invalid metric tensor error
-Solution #1. Set austenite fraction 0.9, ferrite 0.05, cementite 0.05 (all refine checked)
+Solution #1. Set austenite fraction 0.9, ferrite 0.05, cementite 0.05 (close to the real value; all refine checked)
