@@ -107,7 +107,7 @@ Load PWDR (Import - Powder data - from GSAS powder data file), no load for backg
 no load for instrument para (just check 5 param U, V, W, X, Y),
 load Sample Parameters from cali file, then Calculate - Refine
 Follow 4 steps for single refinement in https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqRefine/SequentialTutorial.htm
-  Starting from Step I - 4. Initial fit to Step III
+  Starting from Step I - 4. Initial fit to Step III (above description is for the first step out of 4 steps)
 Iterate single refinement until chi^2 does not decrease more
 
 (C2) How to import fxye files
