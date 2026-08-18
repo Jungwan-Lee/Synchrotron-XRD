@@ -122,7 +122,7 @@ Follow (C3) Sequential refinement
 You can do Rietveld refinement for hundreds of dataset by single-click
 Follow all the steps in: https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqRefine/SequentialTutorial.htm
   Starting from Step IV - 2. Duplicate information across histograms
-It is recommended to save the GSAS-II file into new name (e.g., xxx-1) before doing calculation, 
+It is recommended to save the GSAS-II file into new name (e.g., xxx-1) before starting calculation, 
 because if the sequential refinement fails, we need to retry all the settings again
 
 *Errors*
