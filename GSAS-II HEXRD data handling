@@ -89,7 +89,7 @@ Load IMG files (all the TIF files you want to analyze): Import - Image - from GS
 Here, you can select the stride. every 2 or every 10.. can reduce the # of dataset
 Set Inner/Outer 2-theta
 Click Show integration limits?, Do full integration?, Use for all new images?
-Image Controls - Load Parm as cali file - Copy control
+Image Controls - Load Parm as cali file - Copy control - Set all
 Image Controls - Integration - integrate all
 Export - Powder data as - GSAS fxye file
 
