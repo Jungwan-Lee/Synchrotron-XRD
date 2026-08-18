@@ -104,7 +104,7 @@ Load phases (cif), set constraints equation (CONST 0:0Scale + 1:0Scale + 2:0Scal
     This is to set the sum of phase fractions is always 1
 Phase - General - check Refine unit cell, Phase - Data- check Use Histogram, phase fraction
 Load PWDR (Import - Powder data - from GSAS powder data file), no load for background (just check Refine, no coeff 6), 
-no load for instrument para (just check 5 para),
+no load for instrument para (just check 5 param U, V, W, X, Y),
 just load Sample Parameters from cali file, then Calculate - Refine
 Follow 4 steps for single refinement in https://advancedphotonsource.github.io/GSAS-II-tutorials/SeqRefine/SequentialTutorial.htm
   Starting from Step I - 4. Initial fit to Step III
