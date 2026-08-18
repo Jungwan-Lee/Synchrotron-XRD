@@ -129,5 +129,6 @@ because if the sequential refinement fails, we need to retry all the settings ag
 *Errors*
 Problem #1. Calculate - refine) phase 0 invalid metric tensor error
 Solution #1. Set austenite fraction 0.9, ferrite 0.05, cementite 0.05 (close to the real value; all refine checked)
+            If the error still occurs, delete that phase (probably this phase fraction is too low to detect)
 Problem #2. Sometimes, Sequential refinement can halt even though Rwp value is good (9-10%)
 Solution #2. Check the name of GSAS-II file. If the name or dataset overlaps with previous ones, the calculation can be stuck
