@@ -122,3 +122,5 @@ Starting from Step IV - 2. Duplicate information across histograms
 *Errors*
 Problem #1. Calculate - refine) phase 0 invalid metric tensor error
 Solution #1. Set austenite fraction 0.9, ferrite 0.05, cementite 0.05 (close to the real value; all refine checked)
+Problem #2. Sometimes, Sequential refinement can halt even though Rwp value is good (9-10%)
+Solution #2. Check the name of GSAS-II file. If it overlaps with previous one or if the name has been changed, the calculation can be stuck
