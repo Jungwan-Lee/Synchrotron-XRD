@@ -63,6 +63,7 @@ PWDR, check Limits
   ii) Add positions, Peak Fitting - Peakfit (double-click refine, Y-vary all)
   iii) Instrument Parameters - check U, V, W, X, Y, Peak List - Peak Fitting - Peakfit
   iv) Uncheck all, Refine both sigma2 and gamma, Peak Fitting - Peakfit
+    If red cell occurs, sometimes it changes to white by double-click otherwise do Peakfit by checking the red cells only
   Index Peak List - Operations - Load/Reload
   Unit Cells List - check Cubic-I if ferrite peaks, go to line 36
 
