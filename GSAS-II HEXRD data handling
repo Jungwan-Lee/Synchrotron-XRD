@@ -83,7 +83,7 @@ check histogram linked (all data linked to cif phase)
 Calculate - Refine, it takes time
 ***
 
-(B2) How to generate fxye files of in-situ HEXRD dataset
+(B2) How to generate fxye (PWDR) files of in-situ HEXRD dataset
 Load IMG files as a zip file (zip file should not located at the same folder with IMG files)
 Here, you can select the stride. every 2 or every 10.. can reduce the # of dataset
 Set Inner/Outer 2-theta
