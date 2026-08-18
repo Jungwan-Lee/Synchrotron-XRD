@@ -66,7 +66,8 @@ PWDR, check Limits
   Index Peak List - Operations - Load/Reload
   Unit Cells List - check Cubic-I if ferrite peaks, go to line 36
 
-**GSAS other tips
+***
+GSAS other tips
 To delete data: Data - Delete data entries - click the target
 
 In Origin, choose 3D profile or 3D color surface,
@@ -80,8 +81,9 @@ add phase cif's
 check Refine unit cell in general
 check histogram linked (all data linked to cif phase)
 Calculate - Refine, it takes time
+***
 
-(B2) How to generate fxye files
+(B2) How to generate fxye files of in-situ HEXRD dataset
 Load IMG files as a zip file (zip file should not located at the same folder with IMG files)
 Here, you can select the stride. every 2 or every 10.. can reduce the # of dataset
 Set Inner/Outer 2-theta
