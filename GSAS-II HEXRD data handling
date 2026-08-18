@@ -64,7 +64,7 @@ PWDR, check Limits
   iii) Instrument Parameters - check U, V, W, X, Y, Peak List - Peak Fitting - Peakfit
   iv) Uncheck all, Refine both sigma2 and gamma, Peak Fitting - Peakfit
   Index Peak List - Operations - Load/Reload
-  Unit Cells List - check Cubic-I if ferrite peaks, 
+  Unit Cells List - check Cubic-I if ferrite peaks, go to line 36
 
 **GSAS others
 Delete data: Data - Delete data entries - click the target
