@@ -94,11 +94,12 @@ Export - Powder data as - GSAS fxye file
 
 (B3) 1D histogram fitting (no phase input)
 Before Rietveld refinement for single data, it is good to check 1D histogram fitting for fxye PWDR single data
-This is to check whether the calibration has been done well
+  This is to check whether the calibration has been done well
 Load Sample param from cali, do Background - Peak List - fitting unit inst.param., unit cell list (same as line 16)
 
 (C1) Single refinement (single PWDR (fxye) data)
 Load phases (cif), set constraints equation (CONST 0:0Scale + 1:0Scale + 2:0Scale = 1.0)
+  This is to set the sum of phase fractions is always 1
 Phase - General - check Refine unit cell, Phase - Data- check Use Histogram, phase fraction
 Load PWDR (Import - Powder data - from GSAS powder data file), no load for background (just check Refine, no coeff 6), 
 no load for instrument para (just check 5 para),
