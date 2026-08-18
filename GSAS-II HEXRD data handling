@@ -91,6 +91,7 @@ Set Inner/Outer 2-theta
 Click Show integration limits?, Do full integration?, Use for all new images?
 Image Controls - Load Parm as cali file - Copy control - Set all
 Image Controls - Integration - integrate all
+  Here, you can check all the 1D-profile of each data (integrated PWDR)
 Export - Powder data as - GSAS fxye file
 
 (B3) 1D histogram fitting (no phase input)
